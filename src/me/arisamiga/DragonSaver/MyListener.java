@@ -22,8 +22,10 @@ public class MyListener implements Listener {
 				}
 			} else {
 				Bukkit.getServer().dispatchCommand(Bukkit.getServer().getConsoleSender(), "kill " + e.getName());
-				Bukkit.getServer().dispatchCommand(Bukkit.getServer().getConsoleSender(), "ban " + e.getName() + " " + ChatColor.RED + "" +" We dont allow people who damage the Ender Dragon.");
-				Bukkit.getServer().broadcastMessage(e.getName() + " Was banned because he tried to damage the Ender Dragon");
+				Bukkit.getServer().dispatchCommand(Bukkit.getServer().getConsoleSender(), "ban " + e.getName() + " "
+						+ ChatColor.RED + "" + " We dont allow people who damage the Ender Dragon.");
+				Bukkit.getServer()
+						.broadcastMessage(e.getName() + " Was banned because he tried to damage the Ender Dragon");
 			}
 
 		}

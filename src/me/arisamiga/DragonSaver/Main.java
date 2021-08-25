@@ -25,11 +25,13 @@ public class Main extends JavaPlugin {
 			if (sender instanceof Player) {
 				// player
 				Player player = (Player) sender;
-				player.sendMessage("DragonSaver: "+ ChatColor.GREEN + "" + "Active | DragonSaver is currently running.");
+				player.sendMessage(
+						"DragonSaver: " + ChatColor.GREEN + "" + "Active | DragonSaver is currently running.");
 				return true;
 			} else {
 				// console
-				sender.sendMessage("DragonSaver: "+ ChatColor.GREEN + "" + "Active | DragonSaver is currently running.");
+				sender.sendMessage(
+						"DragonSaver: " + ChatColor.GREEN + "" + "Active | DragonSaver is currently running.");
 				return true;
 			}
 
