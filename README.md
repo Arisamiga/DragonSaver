@@ -5,7 +5,7 @@
  
 # Installation
 
-First install the .jar file from the releases.
+First install the .jar file from the releases or from the spigot page [here](https://www.spigotmc.org/resources/dragonsaver.95678/).
 
 Then move that file to the `/plugins` folder inside your server!
 
