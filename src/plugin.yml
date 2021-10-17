@@ -1,7 +1,8 @@
 name: DragonSaver
 author: arisamiga
 version: 1.0
-main: me.arisamiga.DragonSaver.Main
+main: me.arisamiga.DragonSaver.DragonSaver
 
 commands:
    dragonsaver:
+   dragonsaver-type:
