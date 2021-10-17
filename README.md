@@ -1,5 +1,5 @@
 # DragonSaver
- A Java plugin which Bans whoever tries to hurt the Ender Dragon
+ A Java plugin which Punishes whoever tries to hurt the Ender Dragon
  
  <img src="https://static.wikia.nocookie.net/minecraft_gamepedia/images/0/0a/Ender_Dragon.gif/revision/latest?cb=20210107043116">
  
@@ -15,4 +15,7 @@ If you see a message like `Successfully loaded DragonSaver!!` on the console tha
 
 Once installed the plugin will work automatically!
 
-Use `/dragonsaver` to make sure that the command works.
+Use `/dragonsaver (on, off)` to toggle the plugin.
+
+Use `/dragonsaver-type (Kill, Ban, Kick)` to choose the punishment for the person who punches the ender dragon.
+
